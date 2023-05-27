@@ -8,7 +8,7 @@ class DnsReader extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'DnsReader';
+        return 'DnsReaderService';
     }
 
 }

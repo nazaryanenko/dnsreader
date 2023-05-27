@@ -11,12 +11,10 @@ class DnsReaderServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->singleton('DnsReader', function()
+        $this->app->singleton('DnsReaderService', function()
         {
             return new DnsReaderService;
         });
-
-        $this->app->alias(DnsReader::class, 'DnsReader');
     }
 
     public function boot()
