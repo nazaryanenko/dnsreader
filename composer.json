@@ -1,0 +1,9 @@
+{
+    "name": "nazaryanenko/dnsreader",
+    "autoload": {
+        "psr-4": {
+            "Nazaryanenko\\Dnsreader\\": "src/"
+        }
+    },
+    "require": {}
+}
