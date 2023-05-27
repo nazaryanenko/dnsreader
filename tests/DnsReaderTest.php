@@ -18,7 +18,7 @@ class DnsReaderTest extends TestCase
     public function testGetDnsRecordsReturnsCollectionOfRecordsWhenCheckRecordSucceeds()
     {
         $dnsReaderService = new DnsReaderService();
-        $result = $dnsReaderService->getDnsRecords('https://google.com');
+        $result = $dnsReaderService->getDnsRecords('google.com');
 
         $this->assertInstanceOf(Collection::class, $result);
         $this->assertTrue($result->isNotEmpty());
