@@ -16,7 +16,7 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^v8.83.27"
+        "illuminate/support": "^v8.0.0"
     },
     "extra": {
         "laravel": {
