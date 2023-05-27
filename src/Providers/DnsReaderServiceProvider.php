@@ -21,7 +21,6 @@ class DnsReaderServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->app->register(DnsReaderServiceProvider::class);
         AliasLoader::getInstance()->alias('DnsReader', DnsReader::class);
     }
 }
