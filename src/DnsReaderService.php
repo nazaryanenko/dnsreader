@@ -11,11 +11,11 @@ class DnsReaderService
     {
         $hostName = $this->resolveHostName($hostName);
 
-        if (!dns_check_record($hostName)) {
+        if (!$records = dns_get_record($hostName)) {
             return Collection::make();
         }
 
-        return Collection::make(dns_get_record($hostName));
+        return Collection::make($records);
     }
 
     protected function resolveHostName(string $hostName): string
