@@ -18,7 +18,7 @@
         "laravel/framework" : "^10"
     },
     "require-dev": {
-        "phpunit/phpunit" : "^10"
+        "orchestra/testbench": "^8.5"
     },
     "extra": {
         "laravel": {
