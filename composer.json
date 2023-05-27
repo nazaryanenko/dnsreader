@@ -24,7 +24,7 @@
                 "Nazaryanenko\\Dnsreader\\DnsReaderServiceProvider"
             ],
             "aliases": {
-                "CustomPackage": "DnsReader"
+                "DnsReader": "DnsReader"
             }
         }
     }
