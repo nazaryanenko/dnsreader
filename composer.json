@@ -23,7 +23,7 @@
                 "Nazaryanenko\\Dnsreader\\DnsReaderServiceProvider"
             ],
             "aliases": {
-                "DnsReader": "DnsReader"
+                "DnsReader": "Nazaryanenko\\Dnsreader\\Facades\\DnsReader"
             }
         }
     }
