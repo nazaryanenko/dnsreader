@@ -5,7 +5,7 @@ namespace Nazaryanenko\Dnsreader;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
-class DnsReader
+class DnsReaderService
 {
     public function getDnsRecords(string $hostName): Collection
     {

@@ -1,9 +1,31 @@
 {
     "name": "nazaryanenko/dnsreader",
+    "description": "A Laravel package for reading DNS records of domain names",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Storonianskyi",
+            "email": "igor.storoniansky@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Nazaryanenko\\Dnsreader\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^v8.83.27"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nazaryanenko\\Dnsreader\\DnsReaderServiceProvider"
+            ],
+            "aliases": {
+                "CustomPackage": "DnsReader"
+            }
+        }
+    }
 }
