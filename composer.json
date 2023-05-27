@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nazaryanenko\\Dnsreader\\DnsReaderServiceProvider"
+                "Nazaryanenko\\Dnsreader\\Providers\\DnsReaderServiceProvider"
             ],
             "aliases": {
                 "DnsReader": "Nazaryanenko\\Dnsreader\\Facades\\DnsReader"
